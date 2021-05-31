@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+* {
+     font-family: 'VT323', monospace;
+} */
+
+* .titulo{
+Font-Family: 'Permanent Marker', Cursive;
+
+}
+
+*.texto {
+Font-Family: 'Overpass', Sans-Serif;
+}
+
+
+html {
+     scroll-behavior: smooth;
+     margin: 0;
+     padding: 0;
+}
+
+/* Font-Size: 55px; */
+
+/* Font-Size: 17px; */
+
+body/div/section{ 
+     
+     overflow-y: hidden !important;
+     width: 100% !important;
+
+}
