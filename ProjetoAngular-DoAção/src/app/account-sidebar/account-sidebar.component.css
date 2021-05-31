@@ -1,0 +1,67 @@
+.sidebarLink{
+  text-decoration: none;
+  }
+  .sidebarLink:focus-visible {
+    outline: none;
+  }
+
+  .sidenav {
+    width: 90px;
+    background: #242e43;
+  }
+
+  .app-class .mat-list-item {
+    height: 100%;
+  }
+
+  :host /deep/ .mat-list-base{
+    padding: 0!important;
+    width: 100%;
+  }
+
+  :host /deep/ .mat-list-item-content {
+    padding: 0!important;
+    width: 100%;
+  }
+
+  .sidebar-iten{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    color: lightgray;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    user-select: none;
+    font-size: small;
+  }
+  .sidebar-iten:hover{
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 10em rgba(255, 255, 255, 0.1);
+  }
+
+  .active{
+  color: white;
+  font-weight: 500;
+  box-shadow: inset 0 0 0 10em rgba(255, 255, 255, 0.1)
+  }
+
+  .content{
+    background-color: #eff3f7;
+  }
+
+  .mainContent{
+    padding-top: 10px;
+    padding-left: 10px;
+    margin: 40px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0px 1px rgb(0 0 0 / 13%);
+    min-height: calc(100vh - 280px);
+  }

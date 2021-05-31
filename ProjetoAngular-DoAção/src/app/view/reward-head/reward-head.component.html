@@ -1,0 +1,36 @@
+<div class="mat-elevation-z0">
+  <table mat-table [dataSource]='rewards'>
+    <!-- Id Column -->
+    <ng-container matColumnDef="id">
+      <th mat-header-cell *matHeaderCellDef>#</th>
+      <td mat-cell *matCellDef="let row">{{row.id}}</td>
+    </ng-container>
+
+    <!-- Name Column -->
+    <ng-container matColumnDef="date">
+      <th mat-header-cell *matHeaderCellDef >Data</th>
+      <td mat-cell *matCellDef="let row">{{row.date}}</td>
+      </ng-container>
+
+     <!-- Price Column -->
+     <ng-container matColumnDef="amount">
+      <th mat-header-cell *matHeaderCellDef >Valor</th>
+      <td mat-cell *matCellDef="let row">{{row.amount}}</td>
+      </ng-container>
+
+      <!-- Price Column -->
+      <ng-container matColumnDef="status">
+      <th mat-header-cell *matHeaderCellDef >Status</th>
+      <td mat-cell *matCellDef="let row">{{row.status}}</td>
+      </ng-container>
+
+      <!-- Price Column -->
+      <ng-container matColumnDef="schedule">
+      <th mat-header-cell *matHeaderCellDef >Agenadamento</th>
+      <td mat-cell *matCellDef="let row">{{row.schedule}}</td>
+      </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+</div>

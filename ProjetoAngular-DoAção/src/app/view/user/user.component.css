@@ -1,0 +1,11 @@
+.full-width {
+  width: 100%;
+}
+
+.userInfoContainer{
+max-width: 500px;
+}
+
+.inlineInfo{
+margin-right: 10px;
+}
