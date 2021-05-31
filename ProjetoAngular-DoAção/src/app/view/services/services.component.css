@@ -1,0 +1,71 @@
+.divCorpo{
+    background-color: #B1D4E0;
+    border-radius: 10px;
+    padding: 10px;
+    }
+    
+    img{
+        width:180px;
+        height:120px;
+        border-radius: 10px;
+        align-items: center;
+        display: flex;
+        
+        
+    }
+    h2{
+        font-size: 30px;
+        font-family: 'Merienda', cursive;
+    }
+
+    input[type=button]{
+        
+        border-radius: 10px;
+        background-color: cornflowerblue;
+        height: 30px;
+        width: 180px;
+        font-weight: bold;
+        
+        
+       
+    }
+    
+
+    
+    .blocoServiços{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .blocoDoação{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        flex-wrap: wrap;
+        
+
+    }
+    
+    .repBloco{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+        width: 180px;
+        height: 270px;
+        border-radius: 10px;
+        border-width: 1.5px;
+        border-style:groove;
+        border-color: rgb(12, 11, 4);
+        padding-bottom: 10px;
+    }
+    .repContent{
+        display: flex;
+        text-align: center;
+        padding-left: 10px;
+        padding-bottom: 30px;
+        padding-top: 10px;
+    }
+    

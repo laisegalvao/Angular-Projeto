@@ -1,0 +1,23 @@
+img{
+    margin-right: 180px;
+}
+.logo{
+    padding-right: 240px;
+  }
+  #navChanges{
+  
+    font-size: 18px;
+    padding: 5px;
+  }
+  
+  .example-icon {
+    padding: 0 14px;
+  }
+  
+  .example-spacer {
+    flex: 1 1 auto;
+  }
+  
+  .ngbNav {
+    align-items: flex-end;
+  }
