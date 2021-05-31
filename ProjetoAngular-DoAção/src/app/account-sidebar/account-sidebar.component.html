@@ -1,0 +1,30 @@
+<mat-sidenav-container class="">
+  <mat-sidenav class="sidenav" mode="side" opened fixedInViewport="true" fixedTopGap = "55">
+      <mat-list class="app-class">
+        <a [routerLink]="[{ outlets: { accountRoute: ['user'] } }]" class="sidebarLink" routerLinkActive="active" mat-list-item>
+          <div class="sidebar-iten">
+            <mat-icon >account_circle</mat-icon>
+            <span>Minha conta</span>
+          </div>
+        </a>
+        <a [routerLink]="[{ outlets: { accountRoute: ['donation'] } }]" class="sidebarLink" routerLinkActive="active" mat-list-item>
+          <div class="sidebar-iten">
+            <mat-icon >monetization_on</mat-icon>
+            <span>Doacões</span>
+          </div>
+        </a>
+        <a [routerLink]="[{ outlets: { accountRoute: ['reward'] } }]" class="sidebarLink" routerLinkActive="active" mat-list-item>
+          <div class="sidebar-iten">
+            <mat-icon >video_library</mat-icon>
+            <span>Recompensas</span>
+          </div>
+        </a>
+       </mat-list>
+  </mat-sidenav>
+  <mat-sidenav-content class="content">
+      <app-account-subheader headerTitle></app-account-subheader>
+      <div class="mainContent">
+        <router-outlet name="accountRoute"></router-outlet>
+      </div>
+  </mat-sidenav-content>
+ </mat-sidenav-container>
