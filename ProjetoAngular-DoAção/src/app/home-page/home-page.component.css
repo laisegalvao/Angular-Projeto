@@ -1,6 +1,33 @@
 
-body {
-    background-color: #F1F9FF;
+ .divCorpo{
+  background-color: #B1D4E0;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px;
+  margin-top: 0px;
+  }
+  
+
+  h1{
+    display: flex;
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+    align-content: center;
+    padding: 30px;
+    padding-left: 200px;
+    
+  }
+
+  img{
+    border-radius: 5px;
+  }
+  h3{
+    font-family: 'Merienda', cursive;
+    font-weight: bold;
+  }
+
+  p{
+    font-family: 'Hind Vadodara', sans-serif;
   }
   .carrousel-size {
     object-fit: cover;
@@ -24,7 +51,7 @@ body {
     font-family: 'Roboto', sans-serif;
   }
   .fonte-titulo {
-    color: #2699FB;
+    color: black;
     font-weight: 800;
   
   }
@@ -76,7 +103,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(31, 148, 255, 0.75);
+    background-color: rgba(45, 149, 190, 0.75);
     transition: opacity 0.15s ease-in;
     opacity: 0;
     padding-top: 80px;

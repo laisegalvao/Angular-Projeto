@@ -13,7 +13,9 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ServicesComponent } from './view/services/services.component';
-import { ResponsabilidadeSocialComponent } from './view/responsabilidade-social/responsabilidade-social.component';
+import { RespsocialComponent } from './view/respsocial/respsocial.component';
+import { ComofuncionaComponent } from './view/comofunciona/comofunciona.component';
+import { SobreComponent } from './view/sobre/sobre.component';
 
 
 
@@ -24,7 +26,9 @@ import { ResponsabilidadeSocialComponent } from './view/responsabilidade-social/
     NavbarComponent,
     FooterComponent,
     ServicesComponent,
-    ResponsabilidadeSocialComponent,
+    RespsocialComponent,
+    ComofuncionaComponent,
+    SobreComponent,
   ],
   imports: [
     BrowserModule,
